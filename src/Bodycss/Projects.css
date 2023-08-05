@@ -1,0 +1,29 @@
+.pp{
+    font-size: 33px;
+}
+.Project_header{
+    display: flex;
+    justify-content: space-evenly;
+    gap:1rem;
+}
+.pLeft img{
+    width: 50px;
+}
+.pLeft img:hover{
+    opacity: 0.5;
+}
+.pLeft a{
+    text-decoration: none;
+}
+@media (max-width:700px){
+    .pp{
+        font-size: 25px;
+    }
+    .Project_header{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    .pLeft h2{
+        font-size: medium;
+    }
+}

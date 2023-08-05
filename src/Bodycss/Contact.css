@@ -1,0 +1,26 @@
+#cp{
+    font-size: 30px;
+}
+.Contact_header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Contact_left img{
+    width: 35px;
+}
+.Contact_left #span1 a{
+    text-decoration: none;
+}
+@media (max-width:700px){
+    #cp{
+        font-size: 25px;
+    }
+    .Contact_header{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap:1rem;
+    }
+    .Contact_left img{
+        width: 20px;
+    }
+}

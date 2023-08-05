@@ -1,0 +1,32 @@
+.bp{
+    font-size: 33px;
+}
+.Skills_inner{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    width: 35vw;
+    margin-left: 36%;
+}
+.Skills_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    gap: 0.6rem;
+    padding: 5%;
+}
+.Skills_left li{
+   list-style-type: none;
+   font-family: bold;
+}
+.Skills_left img{
+    width: 39px;
+}
+@media (max-width:700px){
+    .bp{
+        font-size: 25px;
+    }
+   .Skills_inner{
+    margin-left: 20%;
+   }
+}
